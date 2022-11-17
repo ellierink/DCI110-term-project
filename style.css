@@ -1,12 +1,64 @@
 body {
     background-color: #F1E9DC;
     font: #1F1C1B
+
 }
 
+h1 {
+    font-size: 4rem;
+}
 #topSection {
     font-family: 'Abhaya Libre', serif;
 }
-
+#ELLIERINK {
+    font-size: 8rem;
+}
+#MYPATH  {
+    font-size: 1rem;
+}
 #menuitem {
     margin-left: 2rem;
+}
+#section-about .row {
+    height: 40rem;
+  }
+  #column-1 {
+    background-color: #E3A23E;
+  }
+  #column-2 {
+    padding: 0;
+    background-color: blue;
+  }
+  #column-3 {
+    font-size: 2rem;
+    background-color: #E3A23E;
+    z-index: 3;
+  }
+  
+  .portrait {
+    max-width: 100%;
+  }
+  
+
+
+#projectSection {
+    background-color: #F1E9DC;
+    font-family: 'Abhaya Libre', serif;
+}
+#project1 {
+    background-color: #D88D79;
+}
+#project2 {
+    background-color: #E5B1A3;
+}
+#project3 {
+    background-color: #E7CFC9;
+}
+#resumeSection {
+    background-color: #74463A; opacity: 53%;
+    font-family: 'Abhaya Libre', serif;
+}
+#whatsnextSection {
+    background-color: #B5C1B4;
+    font-family: 'Abhaya Libre', serif;
 }
