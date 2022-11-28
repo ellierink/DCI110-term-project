@@ -24,6 +24,7 @@ h1 {
   }
   #column-1 {
     background-color: #E3A23E;
+    font-family: 'Abhaya Libre', serif;
   }
   #column-2 {
     padding: 0;
@@ -31,6 +32,7 @@ h1 {
   }
   #column-3 {
     font-size: 2rem;
+    font-family: 'Abhaya Libre', serif;
     background-color: #E3A23E;
     z-index: 3;
   }
@@ -39,12 +41,18 @@ h1 {
     max-width: 100%;
   }
   
-
-
 #projectSection {
-    background-color: #F1E9DC;
+    background-color: #ffffff;
     font-family: 'Abhaya Libre', serif;
 }
+
+#col-1 {
+    font-family: 'Abhaya Libre', serif;
+}
+#col-2 {
+    font-family: 'Abhaya Libre', serif;
+}
+
 #project1 {
     background-color: #D88D79;
 }
