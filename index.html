@@ -13,82 +13,99 @@
 </head>
 <body>
     <section id="topSection">
-        <div class="container text-center">
-          <div class="row"> 
-          <div class="col">
-              <div class="col-2 pt-4">
-                <p class="menu-item">SEARCH</p>
-                <p class="menu-item">ABOUT</p>
-                <p class="menu-item">PROJECTS</p>
-                <p class="menu-item">RESUME</p>
-                <p class="menu-item">WHAT'S NEXT</p>
-              </div>
-              <div class="col-10">
-                <section id="ELLIERINK">
-                  <p>ELLIE</p>
-                  <p>RINK</p>
-                </section>
-                <section id="MYPATH"> 
-                  <p>MY PATH TO HEALTHCARE CONSULTING</p>
-                </section>
-              </div>
-            </div>
+      <div class="container">
+        <div class="row justify-content-start"> 
+          <div class="col-3 pt-4">
+            <p class="menu-item"><a href="#section-about">ABOUT</a></p>
+            <p class="menu-item"><a href="#projectSection">PROJECTS</a></p>
+            <p class="menu-item"><a href="#resumeSection">RESUME</a></p>
+            <p class="menu-item"><a href="#whatsnextSection">WHAT'S NEXT</a></p>
           </div>
         </div>
-      </section>
+        <div class="row justify-content-end"> 
+          <div class="col-9 align-self-center">
+            <section id="ELLIERINK">
+              <p>ELLIE RINK</p>
+            </section>
+            <section id="MYPATH">
+                <p>MY PATH TO HEALTHCARE CONSULTING</p>
+            </section>
+          </div>
+        </div>
+      </div>
+    </section>
 
       <section class="container-fluid mt-5" id="section-about">
         <div class="row align-items-end">
             <div class="col-sm-3 h-75 mb-5 position-relative" id="column-1">
-                <h2 class="position-absolute bottom-0">ABOUT</h2>
+              <h2 class="position-absolute bottom-0">ABOUT</h2>
             </div>
             <div class="col-sm-3" id="column-2">
-               <img src="ElliePortrait.jpg" class="portrait">
+              <img src="ElliePortrait.jpg" class="portrait" alt="Portrait of Ellie Rink">
             </div>
             <div class="col-sm-6 h-75 mb-5 position-relative" id="column-3">
-                <p class="position-absolute bottom-0 about-text">I am a third-year student at Washington and Lee University studying business administration and data science. 
-                </p>
+                <p class="position-absolute bottom-0 about-text">I'm a third-year student at Washington and Lee University studying business administration and data science. I'm interested in using my degree to enter the healthcare industry, in which I hope to use the business and data science tools I've learned to inform healthcare companies' decisions. In my free time, I love to watch Curb Your Enthusiasm, cheer on the Phoenix Suns, and play pickleball.</p>
             </div>
         </div>
       </section>
 
-    <section class= "container-fluid mt-5" id="projectSection">
-      <div class="row align-items-end">
-        <div class="col-sm-3 h-75 mb-5 position-relative" id="col-1">
-          <div class="card" style="width: 18rem;" id="project1">
+<section class= "container-fluid" id="projectSection">
+  <div class="row justify-content-start">
+    <div class="col-xs-6 col-sm-8 h-75 mb-5 position-relative" id="col-1">
+      <div class="card mb-3" style="max-width: 75%;" id="project1">
             <div class="card-body">
-              <h5 class="card-title">TITLE</h5>
-              <h6 class="card-subtitle mb-2 text-muted">CLASS</h6>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h5 class="card-title">EXAMINING FACTORS INFLUENCING PROPERTY PRICES IN LEXINGTON</h5>
+              <h6 class="card-subtitle mb-2 text-muted">INTR-202</h6>
+              <p class="card-text">Lexington's population owns many farms and large plots of land. We were interested to see how property prices in Lexington are influenced by acreage and whether or not a property has a house on it. We used R to create a multiple regression model that showed us when a property size increases by 1 acre, its price increases by $7,170, on average, if all other factors are fixed, and having a house on a property increases the price of a property by $344,056, on average, if all other factors are fixed.</p>
             </div>
           </div>
-          <div class="card" style="width: 18rem;" id="project2">
+          <div class="card mb-3" style="max-width: 18rem;" id="project2">
             <div class="card-body">
-              <h5 class="card-title">TITLE</h5>
-              <h6 class="card-subtitle mb-2 text-muted">CLASS</h6>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h5 class="card-title">FMOC BLUE BOOK DRAFT</h5>
+              <h6 class="card-subtitle mb-2 text-muted">ECON-276</h6>
+              <p class="card-text">I gathered data from FRED (The Federal Reserve of St. Louis) and sorted it using Excel and R to find correlations between economic events and provide a reccomendation for monetary policy.</p>
             </div>
           </div>
-          <div class="card" style="width: 18rem;" id="project3">
+          <div class="card mb-3" style="max-width: 18rem;" id="project3">
             <div class="card-body">
-              <h5 class="card-title">TITLE</h5>
-              <h6 class="card-subtitle mb-2 text-muted">CLASS</h6>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h5 class="card-title">PORTFOLIO WEBSITE</h5>
+              <h6 class="card-subtitle mb-2 text-muted">DCI-110</h6>
+              <p class="card-text">To fulfill a requirement of the Data Science minor, I created this website as a personal and professional portfolio. One can find information on my education, projects I've worked on, and my career aspirations here. I used HTML, CSS, and JavaScript to create this website.</p>
             </div>
           </div>
-
         </div>
-        <div class="col-sm-3" id="col-2">
-          <h2 class="position-absolute bottom-0">PROJECTS</h2>
         </div>
-    </section>
+        <div class="col-xs-6 col-sm-4" id="col-2">
+          <h2>PROJECTS</h2>
+        </div>
+</section>
 
+    <div class= "container-fluid" id="resumeSection">
+      <h1 id="resumecenter">RESUME</h1>
+      <embed src="Ellie.pdf" type="application/pdf" id="resumeembed"
+      width="400"
+      height="560"
+      align-self-end>
+    </div>
 
-    <section id="resumeSection">
-      <h1>RESUME</h1>
-    </section>
     <section id="whatsnextSection">
-      <h1>WHAT'S NEXT</h1> 
+      <h2>WHAT'S NEXT</h2> 
+      <section id="orderedList">
+      <ol>
+        <li> 
+          <h5>Australia & New Zealand</h5>
+          <p>Next semester, I'm studying abroad in Sydney, Australia and working in Auckland, New Zealand. I'll be interning for a food distribution company, keeping track of inventory trends using data tools. </p>
+        </li>
+        <li> 
+          <h5>Berkeley Research Group</h5>
+          <p>In June, I'll be joining BRG in their DC office as an intern.</p>
+        </li>
+        <li> 
+          <h5>Long Term</h5>
+          <p>I hope to end up on the East Coast as a Pharmacuetical Consultant, working on pricing and economic issues within the industry.</p>
+        </li>
+      </ol>
+    </section>
     </section>
 
 </body>

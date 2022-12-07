@@ -1,53 +1,60 @@
 body {
     background-color: #F1E9DC;
     font: #1F1C1B
-
 }
-
+a{
+    text-decoration: none;
+    color: #1F1C1B;
+    }
 h1 {
+    font-size: 4rem;
+}
+h2{ 
     font-size: 4rem;
 }
 #topSection {
     font-family: 'Abhaya Libre', serif;
+    margin-bottom: 100px;
 }
+
 #ELLIERINK {
     font-size: 8rem;
 }
 #MYPATH  {
-    font-size: 1rem;
+    font-size: 2.2rem;
 }
-#menuitem {
-    margin-left: 2rem;
-}
+
 #section-about .row {
-    height: 40rem;
-  }
-  #column-1 {
-    background-color: #E3A23E;
+    height: 33rem;
+}
+#column-1 {
+    background-color: #F1C786;
     font-family: 'Abhaya Libre', serif;
-  }
-  #column-2 {
+}
+#column-2 {
     padding: 0;
     background-color: blue;
-  }
-  #column-3 {
-    font-size: 2rem;
+}
+#column-3 {
+    font-size: 1rem;
     font-family: 'Abhaya Libre', serif;
-    background-color: #E3A23E;
+    background-color: #F1C786;
     z-index: 3;
-  }
+}
   
-  .portrait {
+.portrait {
     max-width: 100%;
-  }
+}
   
 #projectSection {
-    background-color: #ffffff;
+    background-color: #A78E78;
     font-family: 'Abhaya Libre', serif;
+    margin-top: 5rem;
 }
 
 #col-1 {
     font-family: 'Abhaya Libre', serif;
+    align-items: center;
 }
 #col-2 {
     font-family: 'Abhaya Libre', serif;
@@ -63,10 +70,24 @@ h1 {
     background-color: #E7CFC9;
 }
 #resumeSection {
-    background-color: #74463A; opacity: 53%;
+    margin: 40px 0px 40px;
+    background-color: #E8AF7B;
     font-family: 'Abhaya Libre', serif;
 }
+
+#resumecenter {
+    position: absolute;
+    left: 0px;
+    width: 300px;
+    padding: 10px;
+    vertical-align: middle;
+}
+
 #whatsnextSection {
-    background-color: #B5C1B4;
+    background-color: #9DA587;
     font-family: 'Abhaya Libre', serif;
+}
+
+#orderedList {
+    background-color: #EBE6B7;
 }
