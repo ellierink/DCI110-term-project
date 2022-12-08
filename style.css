@@ -14,7 +14,7 @@ h2{
 }
 #topSection {
     font-family: 'Abhaya Libre', serif;
-    margin-bottom: 100px;
+    height: 95vh;
 }
 
 #ELLIERINK {
@@ -41,15 +41,21 @@ h2{
     background-color: #F1C786;
     z-index: 3;
 }
+
+#AboutText {
+    text-align: center;
+    margin-top: 18rem;
+
+}
   
 .portrait {
     max-width: 100%;
 }
   
 #projectSection {
-    background-color: #A78E78;
     font-family: 'Abhaya Libre', serif;
-    margin-top: 5rem;
+    margin-top: 10rem;
+    background-color: #906f66;
 }
 
 #col-1 {
@@ -58,19 +64,30 @@ h2{
 }
 #col-2 {
     font-family: 'Abhaya Libre', serif;
+    text-align: center;
+    margin-top: 5rem;
 }
 
 #project1 {
     background-color: #D88D79;
+    border-radius: 0%;
+    border-color: #D88D79;
+    margin-top: -3rem;
 }
 #project2 {
     background-color: #E5B1A3;
+    border-radius: 0%;
+    border-color: #E5B1A3 ;
 }
+
 #project3 {
     background-color: #E7CFC9;
+    border-radius: 0%;
+    border-color: #E7CFC9;
 }
+
 #resumeSection {
-    margin: 40px 0px 40px;
+    margin-top: 10rem;
     background-color: #E8AF7B;
     font-family: 'Abhaya Libre', serif;
 }
@@ -86,8 +103,15 @@ h2{
 #whatsnextSection {
     background-color: #9DA587;
     font-family: 'Abhaya Libre', serif;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
 }
 
 #orderedList {
     background-color: #EBE6B7;
+    margin-top: -3rem;
+    margin-bottom: -3rem;
+    margin-left: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }

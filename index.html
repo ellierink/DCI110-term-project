@@ -38,7 +38,7 @@
       <section class="container-fluid mt-5" id="section-about">
         <div class="row align-items-end">
             <div class="col-sm-3 h-75 mb-5 position-relative" id="column-1">
-              <h2 class="position-absolute bottom-0">ABOUT</h2>
+              <h2 id="AboutText">ABOUT</h2>
             </div>
             <div class="col-sm-3" id="column-2">
               <img src="ElliePortrait.jpg" class="portrait" alt="Portrait of Ellie Rink">
@@ -48,48 +48,54 @@
             </div>
         </div>
       </section>
-
-<section class= "container-fluid" id="projectSection">
-  <div class="row justify-content-start">
-    <div class="col-xs-6 col-sm-8 h-75 mb-5 position-relative" id="col-1">
-      <div class="card mb-3" style="max-width: 75%;" id="project1">
-            <div class="card-body">
-              <h5 class="card-title">EXAMINING FACTORS INFLUENCING PROPERTY PRICES IN LEXINGTON</h5>
-              <h6 class="card-subtitle mb-2 text-muted">INTR-202</h6>
-              <p class="card-text">Lexington's population owns many farms and large plots of land. We were interested to see how property prices in Lexington are influenced by acreage and whether or not a property has a house on it. We used R to create a multiple regression model that showed us when a property size increases by 1 acre, its price increases by $7,170, on average, if all other factors are fixed, and having a house on a property increases the price of a property by $344,056, on average, if all other factors are fixed.</p>
-            </div>
-          </div>
-          <div class="card mb-3" style="max-width: 18rem;" id="project2">
-            <div class="card-body">
-              <h5 class="card-title">FMOC BLUE BOOK DRAFT</h5>
-              <h6 class="card-subtitle mb-2 text-muted">ECON-276</h6>
-              <p class="card-text">I gathered data from FRED (The Federal Reserve of St. Louis) and sorted it using Excel and R to find correlations between economic events and provide a reccomendation for monetary policy.</p>
-            </div>
-          </div>
-          <div class="card mb-3" style="max-width: 18rem;" id="project3">
-            <div class="card-body">
-              <h5 class="card-title">PORTFOLIO WEBSITE</h5>
-              <h6 class="card-subtitle mb-2 text-muted">DCI-110</h6>
-              <p class="card-text">To fulfill a requirement of the Data Science minor, I created this website as a personal and professional portfolio. One can find information on my education, projects I've worked on, and my career aspirations here. I used HTML, CSS, and JavaScript to create this website.</p>
-            </div>
-          </div>
-        </div>
-        </div>
-        <div class="col-xs-6 col-sm-4" id="col-2">
-          <h2>PROJECTS</h2>
-        </div>
-</section>
-
-    <div class= "container-fluid" id="resumeSection">
-      <h1 id="resumecenter">RESUME</h1>
-      <embed src="Ellie.pdf" type="application/pdf" id="resumeembed"
-      width="400"
-      height="560"
-      align-self-end>
+  
+      <section class="containter-fluid" id="backgroundproject">
+        <section class= "container-fluid" id="projectSection">
+          <div class="row">
+            <div class="col-sm-8 h-75 mb-5 position-relative" id="col-1">
+              <div class="card mb-3" style="max-width: 80vw;" id="project1">
+                    <div class="card-body">
+                      <h5 class="card-title">EXAMINING FACTORS INFLUENCING PROPERTY PRICES IN LEXINGTON</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">INTR-202</h6>
+                      <p class="card-text">Lexington's population owns many farms and large plots of land. We were interested to see how property prices in Lexington are influenced by acreage and whether or not a property has a house on it. We used R to create a multiple regression model that showed us when a property size increases by 1 acre, its price increases by $7,170, on average, if all other factors are fixed, and having a house on a property increases the price of a property by $344,056, on average, if all other factors are fixed.</p>
+                    </div>
+                  </div>
+                  <div class="card mb-3" style="max-width: 80vw;" id="project2">
+                    <div class="card-body">
+                      <h5 class="card-title">FMOC BLUE BOOK DRAFT</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">ECON-276</h6>
+                      <p class="card-text">I gathered data from FRED (The Federal Reserve of St. Louis) and sorted it using Excel and R to find correlations between economic events and provide a reccomendation for monetary policy.</p>
+                    </div>
+                  </div>
+                  <div class="card mb-3" style="max-width: 80vw;" id="project3">
+                    <div class="card-body">
+                      <h5 class="card-title">PORTFOLIO WEBSITE</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">DCI-110</h6>
+                      <p class="card-text">To fulfill a requirement of the Data Science minor, I created this website as a personal and professional portfolio. One can find information on my education, projects I've worked on, and my career aspirations here. I used HTML, CSS, and JavaScript to create this website.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4" id="col-2">
+                  <h2>PROJECTS</h2>
+                </div>
+              </div>
+        </section>
+        </section>
+        
+<section class="container-fluid" id="resumeSection">
+    <div class= "row">
+      <div class="col-sm-4" id="resumecenter">
+        <h1>RESUME</h1>
+      </div>
+      <div class="col-sm-8" id="ellieresume">
+        <embed src="Ellie.pdf" type="application/pdf" id="resumeembed" width="400" height="560" >
+      </div>
     </div>
+  </section>
 
-    <section id="whatsnextSection">
-      <h2>WHAT'S NEXT</h2> 
+<section class="container-fluid" id="whatsnextSection">
+  <div class="row">
+    <div class="col-sm-8">
       <section id="orderedList">
       <ol>
         <li> 
@@ -105,8 +111,13 @@
           <p>I hope to end up on the East Coast as a Pharmacuetical Consultant, working on pricing and economic issues within the industry.</p>
         </li>
       </ol>
-    </section>
-    </section>
-
+      </section>
+    </div>
+    <div class="col-sm-4">
+      <h2>WHAT'S NEXT</h2> 
+    </div>
+  </div>
+</section>
+   
 </body>
 </html>
