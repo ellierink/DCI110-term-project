@@ -93,11 +93,13 @@ h2{
 }
 
 #resumecenter {
-    position: absolute;
-    left: 0px;
-    width: 300px;
-    padding: 10px;
-    vertical-align: middle;
+   margin-left: 10rem;
+   margin-top: 2rem;
+}
+
+#ellieresume {
+padding-left: 46rem;
+padding-bottom: 2rem;
 }
 
 #whatsnextSection {
